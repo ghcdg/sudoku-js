@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>数独游戏JS</title>   
+</head>
+<body>
+    <!-- 标题 -->
+    <h1 class="title">数独游戏</h1>
+    <!-- 九宫格 -->
+    <div id="container" class="container grid"></div>
+
+    <!-- 按钮组 -->
+    <div id="dashboard" class="dashboard">
+        <div class="buttons">
+            <button type="button" id="check">检查</button>
+            <button type="button" id="reset">重置</button>
+            <button type="button" id="clear">清错</button>
+            <button type="button" id="rebuild">新建</button>
+        </div>
+    </div>
+
+    <!-- 弹出面板 -->
+    <div id="popupNumbers" class="grid popup-num hidden">
+        <div class="row"><span>1</span><span>2</span><span>3</span></div>
+        <div class="row"><span>4</span><span>5</span><span>6</span></div>
+        <div class="row"><span>7</span><span>8</span><span>9</span></div>
+        <div class="row"><span class="popleft"></span><span class="empty"></span><span class="popright"></span></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./assets/main.js"></script>
+
+</body>
+</html>
