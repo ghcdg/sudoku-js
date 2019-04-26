@@ -47,7 +47,7 @@ popupnumbers.js 处理弹出的操作面板
 
 ### 项目上传 
 
-使用相应的git命令上传项目，使用 git subtree push --prefix=dist origin gh-pages 命令，将 dist 文件推送到 gh-pages 分支即可在线查看demo
+使用相应的git命令上传项目,使用 git subtree push --prefix=dist origin gh-pages 命令，将 dist 文件推送到 gh-pages 分支即可在线查看demo
 
 
 
